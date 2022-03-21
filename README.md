@@ -1,0 +1,1 @@
+# zanaty-password-generator
