@@ -1,4 +1,8 @@
 # zanaty-password-generator
+AS AN employee with access to sensitive data
+I WANT to randomly generate a password that meets certain criteria
+SO THAT I can create a strong password that provides greater security
+
 I created an app to randomly create a new, secure password
 WHEN I click the button, a new passwork is generated after I am presented with a series of prompts for password criteria
 I'll be prompted for password criteria then I'll select which criteria to include in the password
