@@ -11,18 +11,41 @@ function generatePassword() {
   alert ("password must be between 8 and 128 characters long")
   // return ""
   }
-const alphabet = "abcdefghijklmnopqrstuvwxyz";
-const randomCharacter = alphabet[Math.floor(Math.random() * alphabet.length)]
+  let alphabet = ""
+  const lower = "abcdefghijklmnopqrstuvwxyz";
+  const upper = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+  const numbers = "0123456789"
+  const special = "!@#$%&*"
+
+  var lowerCase = confirm ("Do you want lower case character?")
+  var upperCase = confirm ("Do you want uppercase character?")
+  var number = confirm ("Do you want a number?")
+  var specialCharecters = confirm ("Do you want special charecters?")
+
+  if (lowerCase === true) {
+    alphabet += lower
+  }
+  if (upperCase === true) {
+    alphabet += upper
+  }
+  if (number === true) {
+    alphabet += numbers
+  }
+  if (specialCharecters === true) {
+    alphabet += special
+  }
+const randomCharacter = function() {
+  return alphabet.charAt(Math.floor(Math.random() * alphabet.length))
+}
 console.log(randomCharacter,'char');
-var randomNumber = Math.floor((Math.random() * 10) + 1).toString();
-console.log(randomNumber,'num');
+
 // write a for loop
 for(let index = 0; index <= passwordLength; index++){
   // construct myPassword using plus or concat
   console.log(myPassword,"myPassword before")
-  myPassword.concat(randomCharacter);
+  myPassword += randomCharacter();
   console.log(myPassword,"myPassword  after")
-  myPassword.concat(randomNumber);
+
   // if myPassword length is eqaul passwordLength
   if(myPassword.length === passwordLength) {
     // return myPassword
