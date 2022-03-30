@@ -10,4 +10,4 @@ I'm also prompted for the length of the password then I'll be able to choose a l
 when I'm asked for character types to include in the password, I confirm whether or not to include lowercase, uppercase, numeric, and/or special characters.
 WHEN I answer each prompt, my input will be validated and at least one character type should be selected.
 All prompts are answered and a password is generated that matches the selected criteria
-The password will be generated and is either displayed in an alert or written to the page!
+The password will be generated and is either displayed in an alert or written to the page!![Screen Shot 2022-03-30 at 2 08 46 PM](https://user-images.githubusercontent.com/67457318/160931260-53927af8-cb92-47b0-88d3-a319ff01e6c9.png)
