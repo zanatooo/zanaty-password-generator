@@ -10,5 +10,8 @@ WHEN they answer each prompt, Their input will be validated and at least one cha
 All prompts are answered and a password is generated that matches the selected criteria
 The password will be generated and is either displayed in an alert or written to the page!!
 
+Deployed Application URL
+https://zanatooo.github.io/zanaty-password-generator/
+
 
 [Screen Shot 2022-03-30 at 2 08 46 PM](https://user-images.githubusercontent.com/67457318/160931260-53927af8-cb92-47b0-88d3-a319ff01e6c9.png)
